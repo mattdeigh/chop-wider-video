@@ -5,7 +5,6 @@ This code can be used to serve a larger video to users with larger displays. We 
 Most video embeded with iframes will automatically expand to fill the larger area, but you may need to check with your video hosting provider.
 
 
-
 ## The Code
 ##### Custom CSS
 ```css
@@ -35,9 +34,10 @@ Most video embeded with iframes will automatically expand to fill the larger are
 /**
  * This eliminates stretched slides when using the larger video size
  * 
- * When at the larger video size, this swaps out the 'cropped' slides that ChOP
- * creates (480px wide) with the original uploaded file.
- * You must make sure you're uploading files that are 640px wide!
+ * At the larger video size, this swaps out the 'cropped' slides that ChOP creates (480px wide)
+ * with the original uploaded file. To make this work you must uploading images that are 640px
+ * wide with the content in the center 480px. See slide_640.psd for a template.
+ * 
  */ 
 (function(){
     $(document).ready(function(){ 
