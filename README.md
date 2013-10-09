@@ -1,6 +1,8 @@
 Enable larger video frame on Church Online Platform
 
-DESCRIPTION
+This code can be used to serve a larger video to users with larger displays. We implemented this at live.sandalschurch.com and saw fewer users taking the video full screen and more users engaging with the chat.
+
+Most video embeded with iframes will automatically expand to fill the larger area, but you may need to check with your video hosting provider.
 
 
 
