@@ -34,9 +34,10 @@ Most video embeded with iframes will automatically expand to fill the larger are
 /**
  * This eliminates stretched slides when using the larger video size
  * 
- * At the larger video size, this swaps out the 'cropped' slides that ChOP creates (480px wide)
- * with the original uploaded file. To make this work you must uploading images that are 640px
- * wide with the content in the center 480px. See slide_640.psd for a template.
+ * At the larger video size, this swaps out the 'cropped' slides that ChOP
+ * creates (480px wide) with the original uploaded file. To make this work
+ * you must uploading images that are 640px wide with the content in the
+ * center 480px. See slide_640.psd for a template.
  * 
  */ 
 (function(){
